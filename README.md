@@ -1,0 +1,2 @@
+- https://github.com/opencredo/spring-hateoas-sample
+- https://github.com/dschulten/spring-hateoas-rest-service-sample
