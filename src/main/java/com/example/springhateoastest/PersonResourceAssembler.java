@@ -11,6 +11,8 @@ public class PersonResourceAssembler extends ResourceAssemblerSupport<Person, Pe
 
     @Override
     public PersonResource toResource(Person entity) {
-        return createResourceWithId(entity.getName(), entity);
+        PersonResource resource = createResourceWithId(entity.getName(), entity);
+        resource.setPerson(entity);
+        return resource;
     }
 }
